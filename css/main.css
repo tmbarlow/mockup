@@ -22,7 +22,7 @@ body {
   }
 
   .headline-banner {
-    background: radial-gradient(circle farthest-corner, #cccccc, #2e1a1100);
+    background: radial-gradient(circle farthest-corner, #cccccc, #2e1a1100 );
     width: 100%; 
     height: auto;
     background-position: center;
@@ -30,6 +30,7 @@ body {
     background-size: cover;
     position: relative;
     margin: 0;
+    margin-right: 0;
     padding: 0;
     letter-spacing: -.2rem;
   }
@@ -384,7 +385,44 @@ body {
     color: #2BB673;
 }
 
+@media only screen and (max-width: 675px) {
+    .headline-text {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        padding-top: 1rem;
+        font-size: 5vw;
+      }
+     
+      .banner-text {
+        text-align: center;
+        color:#c52029;
+        font-weight: 1000;
+        font-size: 10vw;
+        font-family: 'Open Sans Condensed', sans-serif;
+      }
+}
+
+
+
 @media only screen and (max-width: 575px) {
+
+    .headline-text {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        padding-top: 1rem;
+        font-size: 5vw;
+      }
+     
+      .banner-text {
+        text-align: center;
+        color:#c52029;
+        font-weight: 1000;
+        font-size: 14vw;
+        font-family: 'Open Sans Condensed', sans-serif;
+      }
+
     .order-now {
         margin: 0;
         font-size: 5.5vw;
