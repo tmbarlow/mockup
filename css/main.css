@@ -213,6 +213,13 @@ body {
     float: right;
 }
 
+#peter {
+    /* background-image: url(../img/peter.png); */
+    height: 250px;
+    background-repeat: no-repeat;
+    float: right;
+     
+}
 .transparent-background {
     background-image: url(../img/transparent-background.jpg);
     background-repeat: no-repeat;
